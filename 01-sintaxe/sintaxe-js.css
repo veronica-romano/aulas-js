@@ -1,0 +1,10 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(158, 166, 173);
+    text-align: center;
+}
+

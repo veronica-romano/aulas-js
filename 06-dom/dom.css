@@ -1,0 +1,23 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: thistle;
+}
+
+figure{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.destaque-item{
+    color: purple;
+    background-color: lightblue;
+    border: solid 1px;
+    padding: 3px;
+    margin: 3px 0;
+}
