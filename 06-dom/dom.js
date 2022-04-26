@@ -45,7 +45,7 @@ console.log(ultimo);
 
 const primeiro = document.querySelector('li:first-child');
 console.log(primeiro);
-//primeiro.innerHTML = "<b>Deu ruim</b>";
+//testar: nomedaconst.innerHTML = "<b>Deu ruim</b>";
 
 const segundo = document.querySelector('li:nth-child(2)');
 console.log(segundo);
