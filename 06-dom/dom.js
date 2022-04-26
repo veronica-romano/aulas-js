@@ -41,4 +41,8 @@ const listaEditores = document.querySelector('#lista-editores');
 
 const ultimo = document.querySelector('li:last-child');
 console.log(ultimo);
-ultimo.innerHTML = "<b>Deu ruim</b>";
+
+
+const primeiro = document.querySelector('li:first-child');
+console.log(primeiro);
+primeiro.innerHTML = "<b>Deu ruim</b>";
