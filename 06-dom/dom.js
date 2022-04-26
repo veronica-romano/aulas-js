@@ -35,3 +35,5 @@ legenda.innerHTML = "<b>Ilustração do DOM</b>";
 // CSS via JS
 titulo.style.textAlign = "center";
 titulo.style.backgroundImage = 'linear-gradient(lightyellow, lightblue)';
+
+//usar uma classe via js
