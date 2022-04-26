@@ -49,3 +49,5 @@ console.log(primeiro);
 
 const segundo = document.querySelector('li:nth-child(2)');
 console.log(segundo);
+
+segundo.style.color = "red";
