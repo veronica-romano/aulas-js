@@ -21,11 +21,14 @@ const subtitulo = document.querySelectorAll('h2');
 console.log(subtitulo);
 
 
-/* Modificando elementos */
+/* Modificando elementos, mudando apenas o texto */
 titulo.textContent = "Olá Mundo!";
 subtitulo[1].textContent = "Full Stack";
 
+
+// selecionando apenas uma TAG
 const legenda = document.querySelector('figcaption');
+// inserindo uma TAG
 legenda.innerHTML = "<b>Ilustração do DOM</b>";
 
 
