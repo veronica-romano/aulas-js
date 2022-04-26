@@ -41,7 +41,7 @@ const listaEditores = document.querySelector('#lista-editores');
 
 const ultimo = document.querySelector('li:last-child');
 console.log(ultimo);
-
+ultimo.classList.add('destaque-item');
 
 const primeiro = document.querySelector('li:first-child');
 console.log(primeiro);
@@ -50,4 +50,5 @@ console.log(primeiro);
 const segundo = document.querySelector('li:nth-child(2)');
 console.log(segundo);
 
-segundo.style.color = "red";
+//ultimo.style.color = "red";
+
