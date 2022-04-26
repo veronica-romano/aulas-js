@@ -55,3 +55,7 @@ console.log(segundo);
 // atributo target em links via js
 //queryselectorall vira array/matriz
 const links = document.querySelectorAll('ul li a');
+
+for (let i = 0; i < links.length; i++) {
+    links[i].setAttribute('target', '_blank');
+}
