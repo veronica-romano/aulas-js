@@ -37,3 +37,5 @@ titulo.style.textAlign = "center";
 titulo.style.backgroundImage = 'linear-gradient(lightyellow, lightblue)';
 
 //usar uma classe via js
+
+const listaEditores = document.querySelector('lista-editores');
