@@ -52,3 +52,6 @@ console.log(segundo);
 
 //ultimo.style.color = "red";
 
+// atributo target em links via js
+//queryselectorall vira array/matriz
+const links = document.querySelectorAll('ul li a');
