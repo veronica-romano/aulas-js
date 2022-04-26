@@ -40,5 +40,5 @@ titulo.style.backgroundImage = 'linear-gradient(lightyellow, lightblue)';
 
 const listaEditores = document.querySelector('lista-editores');
 
-const ultimo = listaEditores.querySelector('li:last-child') ;
-console.log(ultimo);
+const ultimo = listaEditores.querySelector('li:last-child');
+console.error(ultimo);
