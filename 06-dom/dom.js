@@ -37,7 +37,8 @@ titulo.style.textAlign = "center";
 titulo.style.backgroundImage = 'linear-gradient(lightyellow, lightblue)';
 
 //usar uma classe via js
-const listaEditores = document.querySelector('lista-editores');
+const listaEditores = document.querySelector('#lista-editores');
 
 const ultimo = document.querySelector('li:last-child');
 console.log(ultimo);
+ultimo.innerHTML = "<b>Deu ruim</b>";
