@@ -47,5 +47,17 @@ let desconto = 77.88;
 let precoFinal = preco - desconto;
 
 function formataMoeda(valor){
-    
+    return valor.toLocaleString('en',{
+        style: 'currency',
+        currency: 'USD'
+    });
 }
+
+let formataValor = valor => {
+    return valor.toLocaleString('GBP-UK',{
+        style: 'currency',
+        currency: 'GBP'
+    });
+}
+
+console.log( formataValor(preco) );
