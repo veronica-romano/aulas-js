@@ -37,8 +37,7 @@ titulo.style.textAlign = "center";
 titulo.style.backgroundImage = 'linear-gradient(lightyellow, lightblue)';
 
 //usar uma classe via js
-
 const listaEditores = document.querySelector('lista-editores');
 
-const ultimo = listaEditores.querySelector('li:last-child');
-console.error(ultimo);
+const ultimo = document.querySelector('li:last-child');
+console.log(ultimo);
