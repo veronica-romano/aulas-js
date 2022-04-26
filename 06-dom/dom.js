@@ -45,4 +45,4 @@ console.log(ultimo);
 
 const primeiro = document.querySelector('li:first-child');
 console.log(primeiro);
-primeiro.innerHTML = "<b>Deu ruim</b>";
+//primeiro.innerHTML = "<b>Deu ruim</b>";
