@@ -15,6 +15,12 @@ let formateNumber = number => {
     });
 }
 
+function formataMoeda(valor){
+    return valor.toLocaleString('BR',{
+        style: 'currency',
+        currency: 'BRL'
+    });
+}
 
 function clique(){
     resultado.innerHTML = number.value;
