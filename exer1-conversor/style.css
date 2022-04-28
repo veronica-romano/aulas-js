@@ -10,5 +10,8 @@ body{
 main{
     display: flex;
     justify-content: center;
-    align-content: center;
+}
+
+main div{
+    
 }
