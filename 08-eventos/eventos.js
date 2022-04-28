@@ -39,3 +39,13 @@ botao.addEventListener('click', function(){
     }
     
 });
+
+const formulario = pagina.querySelector('form');
+const campoNome = pagina.querySelector('#nome');
+const campoNota1 = pagina.querySelector('#nota1');
+const campoNota2 = pagina.querySelector('#nota2');
+const corpoTabela = pagina.querySelector('tbody');
+
+formulario.addEventListener('submit', function(event){
+     
+});
