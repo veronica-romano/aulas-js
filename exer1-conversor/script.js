@@ -1,12 +1,9 @@
 let number = document.getElementById('number');
+let resultado = document.getElementById('resultado');
 
 function clique(){
     console.log(number.value);
 }
-
-let resultado = document.getElementById('resultado');
-
-
 
 let formateNumber = number => {
     return number.toLocaleString('US',{
@@ -14,14 +11,12 @@ let formateNumber = number => {
         currency: 'USD'
     });
 }
-
-function formataMoeda(valor){
+function formateValue(valor){
     return valor.toLocaleString('BR',{
         style: 'currency',
         currency: 'BRL'
     });
 }
-
 function clique(){
-    resultado.innerHTML = number.value;
+    resultado.innerHTML = ( formateValue(number) );
 }
