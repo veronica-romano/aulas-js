@@ -1,21 +1,10 @@
-let number = document.getElementById('number');
-function clique(){
-    console.log(number.value);
+let number;
+
+
+function formateValue(){
+    let dolar = 5;
+    valor = parseFloat(document.getElementById("number").value);			
+
+    document.getElementById("resultado").innerHTML = (valor * dolar).toFixed(2);
 }
 
-let formateNumber = number => {
-    return number.toLocaleString('US',{
-        style: 'currency',
-        currency: 'USD'
-    });
-}
-function formateValue(valor){
-    return valor.toLocaleString('BR',{
-        style: 'currency',
-        currency: 'BRL'
-    });
-}
-let resultado = document.getElementById('resultado');
-function clique(){
-    resultado.innerHTML = ( formateValue(number) );
-}
