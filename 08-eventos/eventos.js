@@ -13,9 +13,22 @@ function clique(){
 
 const pagina = document.querySelector(`body`);
 const titulo = pagina.querySelector(`h1`);
-const msg = pagina.querySelector(`
-#mensagem`);
-const sub01 = document.querySelector(`#subtitulo-exemplo01`);
+const msg = pagina.querySelector('#mensagem');
+const sub01 = document.querySelector('#subtitulo-exemplo01');
 
 
 
+//exemplo 01
+sub01.addEventListener('mouseover', function(){
+    msg.textContent = "Você passou o mouse sobre...";
+});
+
+sub01.addEventListener('mouseout', function(){
+    msg.textContent = "";
+});
+
+const botao = pagina.querySelector('#noturno');
+
+botao.addEventListener('click', function(){
+    pagina.classList.toggle('modo-noturno')
+});
