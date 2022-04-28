@@ -1,6 +1,4 @@
 let number = document.getElementById('number');
-let resultado = document.getElementById('resultado');
-
 function clique(){
     console.log(number.value);
 }
@@ -17,6 +15,7 @@ function formateValue(valor){
         currency: 'BRL'
     });
 }
+let resultado = document.getElementById('resultado');
 function clique(){
     resultado.innerHTML = ( formateValue(number) );
 }
