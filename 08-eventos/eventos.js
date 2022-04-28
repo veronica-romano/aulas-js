@@ -11,6 +11,11 @@ function clique(){
 }
 */
 
+const pagina = document.querySelector(`body`);
+const titulo = pagina.querySelector(`h1`);
+const msg = pagina.querySelector(`
+#mensagem`);
+const sub01 = document.querySelector(`#subtitulo-exemplo01`);
 
 
 
