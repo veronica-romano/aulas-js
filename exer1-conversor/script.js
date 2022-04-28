@@ -9,9 +9,9 @@ let resultado = document.getElementById('resultado');
 
 
 let formateNumber = number => {
-    return number.toLocaleString('GBP-UK',{
+    return number.toLocaleString('US',{
         style: 'currency',
-        currency: 'GBP'
+        currency: 'USD'
     });
 }
 
