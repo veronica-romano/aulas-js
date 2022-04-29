@@ -1,8 +1,8 @@
 
-function formateValue(){
+function converteDolar(){
     
-    let dolar = 5;	
-    let number = parseFloat(document.getElementById("number").value);
-    document.getElementById("resultado").innerHTML = (number * dolar).toFixed(2);
+    let valorDolar = document.getElementById('valorDolar').value;
+    let converteReal = valorDolar * 4.97;
+    
 }
 
