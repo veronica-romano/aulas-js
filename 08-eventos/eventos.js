@@ -47,5 +47,36 @@ const campoNota2 = pagina.querySelector('#nota2');
 const corpoTabela = pagina.querySelector('tbody');
 
 formulario.addEventListener('submit', function(event){
-     
+     event.preventDefault();
+     let nome = campoNome.value;
+     let nota1 = parseFloat(campoNota1.value);
+     let nota2 = parseFloat(campoNota2.value);
+
+     let media = calculaMedia(nota1, nota2);
+
+     let situacao = verificaSituacao(media);
+
+     montaResumo(nome, media, situacao);
+
+     formulario.reset();
+
+     campoNome.focus();
 });
+
+    function calculaMedia(nota1, nota2){
+        return(nota1 + nota2) / 2;
+    };
+
+    function verificaSituacao(media){
+        if (media >= 7){
+            return 'aprovado';
+        } else{
+            return 'reprovado';
+        }
+    };
+
+    function montaResumo (nome, media, situacao){
+        let linha = document.createElement ('tr');
+        linha.innerHTML = `<td> ${nome} </td> <td> ${media} </td> <td> ${situacao} </td>`;
+        corpoTabela.appendChild(linha);
+    }
