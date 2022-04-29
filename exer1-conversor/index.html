@@ -11,43 +11,50 @@
     <h1>Conversor de moedas</h1>
     <main>
 
-        <!--   1 <div>
-            
-            <p><label for="number">Valor em reais: </label></p>
+        <!--   1 
+        <div>
+            <p>
+                <label for="number">Valor em reais: </label>
+            </p>
             <input type="number" id="valorDolar" required>
             <input class="button" type="submit" value="converter" onclick="converteDolar()">
             <h2 id="resultado"></h2>
         </div>-->
 
-        <!--      2      <p> <label for="cotacaoDolar">Cotação do Dolar:</label></p>
+        <!--      2      
+        <div>
+            <p> <label for="cotacaoDolar">Cotação do Dolar:</label></p>
                 <input type="number" id="cotacaoDolar" required>
-            </div>
-            <div>   
-                <p><label for="number">Valor em reais: </label></p>
-                <input type="number" id="valorDolar" required>    
-                <input class="button" type="submit" value="converter" onclick="converteDolar()">    
-            </div>
+        </div>
+        <div>   
+            <p>
+                <label for="number">Valor em reais: </label>
+            </p>
+            <input type="number" id="valorDolar" required>    
+            <input class="button" type="submit" value="converter" onclick="converteDolar()"   
+        </div>
+
         3
         -->
         <section class="conversor">
             
-                <form action="">
-                    <div>
-                        <p> 
-                            <label for="cotacao">Cotação:</label>
-                        </p>
+             <form action="">
+                 <div>
+                     <p> 
+                        <label for="cotacao">Cotação:</label>
+                     </p>
                         <input type="number" min="0" step="0.01" id="cotacao" required>
-                    </div>
-                    <div>   
-                        <p>
-                            <label for="number">Valor em reais: </label>
-                        </p>
+                </div>
+                 <div>   
+                    <p>
+                        <label for="number">Valor em reais: </label>
+                    </p>
                         <input type="number" min="0" step="0.01" id="valor" required>       
-                    </div>
-                    <div>
+                </div>
+                <div>
                         <input class="button" type="submit" value="converter"> 
-                    </div>
-                </form>
+                </div>
+            </form>
 
         </section>
     </main>

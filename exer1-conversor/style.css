@@ -5,12 +5,17 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgba(204, 77, 255, 0.445);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
 }
 section{
     display: flex;
     justify-content: center;
+}
+
+h1{
+    margin-top: 3em;
 }
 
 h1, h2, h3{
@@ -18,16 +23,24 @@ h1, h2, h3{
     margin-bottom: 7%;
 }
 form{
+    padding-top: 5%;
     width: 90%;
     text-align: center;
     border: 1px dashed black;
     margin-bottom: 7%;
 }
 
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 input{
-    width: 80%;
+    text-align: center;
+    width: 70%;
     font-weight: bold;
     margin-bottom: 5%;
+    opacity: 0.6;
     height: 2.5vh;
     border-radius: 4px;
     border: none;
@@ -36,5 +49,6 @@ input{
 .button{
     border: solid 1px black;
     margin-bottom: 7%;
+    opacity: 1;
 }
 

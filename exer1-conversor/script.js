@@ -25,7 +25,7 @@ function converteDolar(){
         event.preventDefault();
         let cotacao = parseFloat(document.getElementById('cotacao').value);
         let valor = parseFloat(document.getElementById('valor').value);
-        let converteReal = valor * cotacao;
+        let converteReal = (valor * cotacao).toFixed(2);
         let resultado = document.getElementById('resultado')
         resultado.innerText = `O valor convertido em reais é R$ ${converteReal}`
     });
