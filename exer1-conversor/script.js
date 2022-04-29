@@ -23,8 +23,8 @@ function converteDolar(){
     let formulario = document.querySelector('form');
     formulario.addEventListener('submit', function(event){
         event.preventDefault();
-        let cotacao = document.getElementById('cotacao').value;
-        let valor = document.getElementById('valor').value;
+        let cotacao = parseFloat(document.getElementById('cotacao').value);
+        let valor = parseFloat(document.getElementById('valor').value);
         let converteReal = valor * cotacao;
         let resultado = document.getElementById('resultado')
         resultado.innerText = `O valor convertido em reais é R$ ${converteReal}`
