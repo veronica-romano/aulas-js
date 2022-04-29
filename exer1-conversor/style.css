@@ -6,9 +6,14 @@
 
 body{
     background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 main{
     display: flex;
     justify-content: center;
+}
+
+h1{
+    margin-bottom: 10%;
 }
 
